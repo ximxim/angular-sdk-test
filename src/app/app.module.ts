@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CustomReactComponentWrapperComponent } from './chatBot/CustomReactComponentWrapper';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CustomReactComponentWrapperComponent
   ],
   imports: [
     BrowserModule,
